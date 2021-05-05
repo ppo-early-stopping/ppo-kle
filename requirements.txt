@@ -1,0 +1,6 @@
+gym
+wandb
+numpy
+torch
+tensorboardX
+mujoco_py
