@@ -32,7 +32,7 @@ For a more streamlined training process, we suggest using services such AWS Batc
 The results of the experiments can be accessed in an interactive way using the following [Weights and Biases Project](ttps://wandb.ai/cleanrl/ppo-kle).
 
 Furthermore, the various plots and tables used in the paper can be generated using the `AllPlots` Jupyter Notebook located in the `evaluation` folder.
-To quickly generate the various plots, we also provided pre-cached data corresponding to the `ppo-early-stopping` as the `evaluation/clearl_ppo_kle` folder.
+To quickly generate the various plots, we also provided pre-cached data corresponding to the `ppo-early-stopping` as the `evaluation/cleanrl_ppo_kle` folder.
 To regenerate the data used for the plots, please remove the folder specified above and rerun the notebook. However, depending on the machine used, the data can take up to a few hours to generate.
 
 In case you have you have followed the "Training" section and generated your experiments under a different WANDB project, please edit the `wandb_entity_project` variable in the first cell of the notebook and re-run it to obtain the corresponding plots as in the paper.
